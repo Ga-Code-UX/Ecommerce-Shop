@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF - 8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> project1 responsivo frontend</title>
+    <link rel="stylesheet"  href="grid.css" >
+    <link rel="stylesheet"  href="project1.css" >
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!--js-->
+    <script src="js/project1.js" defer></script>
+    <script src="js/project1App.js" defer></script>
+    
+</head> 
+<body>
+<!--header-->
+<header>
+    <!--mobile menu-->
+    <div class="mobile-menu bg-second">
+        <a href="project1.html"><img src="img/logo.png" alt=""></a>
+        <span class="mb-menu-toggle" id="mb-menu-toggle">
+            <i class='bx bx-menu'></i>
+        </span>
+    </div>
+    <!--end mobile menu-->
+
+    <!--main header-->
+    <div class="header-wrapper" id="header-wrapper">
+        <span class="mb-menu-close" id="mb-menu-close">
+            <i class='bx bx-x'></i>
+        </span>
+         <!--mid header-->
+         <div class="bg-main">
+            <div class="mid-header container">
+                <a href="project1.html" class="logo"><img src="img/logo.png" alt=""></a>
+                
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <i class='bx bx-search-alt'></i>
+                </div>
+                <ul class="user-menu">
+                    <li><a href="#"><i class='bx bx-bell'></i></a></li>
+                    <li><a href="#"><i class='bx bx-user-circle'></i></a></li>
+                    <li><a href="#"><i class='bx bx-cart'></i></a></li>
+                </ul>
+            </div>
+         </div>
+         <!--end mid header-->
+         <!--button header-->
+         <div class="bg-second">
+            <div class="bottom-header container">
+                <ul class="main-menu">
+                    <li><a href="project1.html">home</a></li>
+                    <!--mega menu-->
+                    <li class="mega-dropdown">
+                        <a href="project1-products.html">Shop <i class='bx bxs-chevron-down'></i></a>
+                        <div class="mega-content">
+                            <div class="row">
+                                <div class="col-3 col-md-12">
+                                    <div class="box">
+                                        <h3>Categorias</h3>
+                                        <ul>
+                                            <li><a href="#">True Wireless</a></li>
+                                            <li><a href="#">Inear headphone</a></li>
+                                            <li><a href="#">Overear headphone</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row img-row">
+                                <div class="col-3">
+                                    <div class="box">
+                                        <img src="img/Auscultadores-Beats-Studio3-Wirele-Cinzento-sombra.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="box">
+                                        <img src="img/1505-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="box">
+                                        <img src="img/1505-14.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="box">
+                                        <img src="img/1505-15.jpg" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <!--end mega menu-->
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </div>
+         </div>
+         <!--end button header-->
+    </div>
+    <!--end main header-->
+</header>
+<!--end header-->
+
+<!--hero section-->
+<div class="hero">
+    <div class="slider">
+        <div class="container">
+            <!--slide item-->
+            <div class="slide active">
+                <div class="info">
+                    <div class="info-content">
+                        <h3 class="top-down">
+                            JBL 
+                        </h3>
+                        <h2 class="top-down trans-delay-0-2">
+                            JBL TUNE 510BT-BRANCO
+                        </h2>
+                        <p class="top-down trans-delay-0-4">
+                            Lorem ipsum dolor sit amet, consectetur adipisci elit, 
+                            sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis 
+                            suscipit...
+                        </p>
+                        <div class="top-down trans-delay-0-6">
+                            <button class="btn-flat btn-hover">
+                                <span>shop now</span>
+                            </button>  
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="top-down img top-down">
+                    <img src="img/JBL-white.png" alt="">
+                </div>
+
+            </div>
+            <!--slide item2-->
+            <div class="slide">
+                <div class="info">
+                    <div class="info-content">
+                        <h3 class="top-down">
+                            AIRPODS 
+                        </h3>
+                        <h2 class="top-down trans-delay-0-2">
+                            AIR-PODS MAX - RED 
+                        </h2>
+                        <p class="top-down trans-delay-0-4">
+                            Lorem ipsum dolor sit amet, consectetur adipisci elit, 
+                            sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis 
+                            suscipit...
+                        </p>
+                        <div class="top-down trans-delay-0-6">
+                            <button class="btn-flat btn-hover">
+                                <span>shop now</span>
+                            </button>  
+                        </div>
+                    </div>
+                </div>
+                
+                <div class=" top-down img right-left">
+                    <img src="img/AIRPODS-MAX.png" alt="">
+                </div>
+
+            </div>
+            <!--slide item3-->
+            <div class="slide ">
+                <div class="info">
+                    <div class="info-content">
+                        <h3 class="top-down">
+                           Beats Studio3 Wireless  
+                        </h3>
+                        <h2 class="top-down trans-delay-0-2">
+                            Skyline Collection
+                        </h2>
+                        <p class="top-down trans-delay-0-4">
+                            Lorem ipsum dolor sit amet, consectetur adipisci elit, 
+                            sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis 
+                            suscipit...
+                        </p>
+                        <div class="top-down trans-delay-0-6">
+                            <button class="btn-flat btn-hover">
+                                <span>shop now</span>
+                            </button>  
+                        </div>
+                    </div>
+                </div>
+                
+                <div class=" top-down img left-right">
+                    <img src="img/Beats-Gray1.png" alt="">
+                </div>
+
+            </div>
+            <!--end slide item-->
+        </div>
+        <!--Slider controller-->
+        <button class="slide-controll slide-next">
+            <i class="bx bxs-chevron-right"></i>
+        </button>
+        <button class="slide-controll slide-prev">
+            <i class="bx bxs-chevron-left"></i>
+        </button>
+        <!--end Slider controller-->
+
+    </div>
+
+</div>
+<!--end hero section-->
+
+<!--promotion section-->
+<div class="promotion">
+    <div class="row">
+        <div class="col-4 col-md-12 col-sm-12">
+            <div class="promotion-box">
+                <div class="text">
+                    <h3>Auriculares sem fios</h3>
+                    <button class="btn-flat btn-hover"><span>Shop Collection</span></button>
+                </div>
+                <img src="img/MV702.png" alt="">
+            </div>
+        </div>
+        <div class="col-4 col-md-12 col-sm-12">
+            <div class="promotion-box">
+                <div class="text">
+                    <h3>True Wireless Beats </h3>
+                    <button class="btn-flat btn-hover"><span>Shop Collection</span></button>
+                </div>
+                <img src="img/True Beats.png" alt="">
+            </div>
+        </div>
+        <div class="col-4 col-md-12 col-sm-12">
+            <div class="promotion-box">
+                <div class="text">
+                    <h3> The Beats Skyline Collection</h3>
+                    <button class="btn-flat btn-hover"><span>Shop Collection</span></button>
+                </div>
+                <img src="img/Headphone-Beats.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!--end promotion section-->
+
+<!--product list-->
+<div class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Latest product</h2>
+        </div>
+        <div class="row" id="latest-products">
+            <div class="col-3 col-md-6 col-sm-12">
+                <div class="product-card">
+                    <div class="product-card-img">
+                        <img src="img/MX422.png" alt="">
+                        <img src="img/MX422_AV4.png" alt="">
+
+                    </div>
+                    <div class="product-card-info">
+                        <div class="product-btn">
+                            <button class="btn-flat btn-hover btn-shop-now">Shop Now</button>
+                            <button class="btn-flat btn-hover btn-cart-add">
+                                <i class='bx bxs-cart-add'></i>
+                            </button>
+                            <button class="btn-flat btn-hover btn-cart-add">
+                                <i class='bx bxs-heart'></i>
+                            </button>
+                        </div>
+                        <div class="product-card-name">
+                            Beats Studio3
+                        </div>
+                        <div class="product-card-price">
+                            <span><del>$300</del></span>
+                            <span class="curr-price">$200</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="section-footer">
+            <a href="project1-products.html" class="btn-flat btn-hover">View All</a>
+        </div>
+    </div>
+</div>
+<!--end product list-->
+
+<!--special product-->
+<div class="bg-second">
+    <div class="section container">
+        <div class="row">
+            <div class="col-5 col-md-4">
+                <div class="sp-item-img">
+                    <img src="img/beats-gold.png" alt="">
+                </div>
+            </div>
+            <div class="col-7 col-md-8">
+                <div class="sp-item-info"> 
+                    <div class="sp-item-name">
+                        Auscultadores Bluetooth Beats Studio3-Skyline Collection<br>Preto Meia-Noite
+                    </div>
+                    <p>
+                        Ut suscipit distinctio ut quae accusantium non illum repellat sed tempore earum vel error omnis.
+                        Et iste fuga non distinctio accusantium ut facere neque ea consequatur enim ad internos laborum qui iste animi.
+                    </p>
+                    <button class="btn-flat btn-hover"><a href="project1-products-details.html">Shop Now</a></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--end special product-->
+
+<!--product more selling-->
+<div class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Best Selling Product</h2>
+        </div>
+        <div class="row" id="best-products">
+            <div class="col-3 col-md-6 col-sm-12">
+                <div class="product-card">
+                    <div class="product-card-img">
+                        <img src="img/Beats1-white.png" alt="">
+                        <img src="img/Beats-white.png" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <div class="product-btn">
+                            <button class="btn-flat btn-hover btn-shop-now">Shop Now</button>
+                            <button class="btn-flat btn-hover btn-cart-add">
+                                <i class='bx bxs-cart-add'></i>
+                            </button>
+                            <button class="btn-flat btn-hover btn-cart-add">
+                                <i class='bx bxs-heart'></i>
+                            </button>
+                        </div>
+                        <div class="product-card-name">
+                            Beats Studio3
+                        </div>
+                        <div class="product-card-price">
+                            <span><del>$300</del></span>
+                            <span class="curr-price">$200</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="section-footer">
+            <a href="project1-products.html" class="btn-flat btn-hover">View All</a>
+        </div>
+    </div>
+</div>
+<!--end product more selling-->
+<!--footer-->
+<footer class="bg-second">
+    <div class="container">
+        <div class="row">
+            <div class="col-3 col-md-6">
+                <h3 class="footer-header">Products</h3>
+                <ul class="menu">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Product help</a></li>
+                    <li><a href="#">Order Status</a></li>
+                </ul>
+            </div>
+
+            <div class="col-3 col-md-6">
+                <h3 class="footer-header">Services</h3>
+                <ul class="menu">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Product help</a></li>
+                    <li><a href="#">Order Status</a></li>
+                </ul>
+            </div>
+
+            <div class="col-3 col-md-6">
+                <h3 class="footer-header">Support</h3>
+                <ul class="menu">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Product help</a></li>
+                    <li><a href="#">Order Status</a></li>
+                </ul>
+            </div>
+            <div class="col-3 col-md-6 col-sm-12">
+                <div class="contact">
+                    <a href="project1.html" class="contact-header"><img src="img/logo.png" alt=""></a>
+                    <ul class="contact-socials">
+                        <li><a href="#">
+                            <i class='bx bxl-facebook-circle'></i>
+                        </a></li>
+                        <li><a href="#">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a></li>
+                        <li><a href="#">
+                            <i class='bx bxl-youtube'></i>
+                        </a></li>
+                        <li><a href="#">
+                            <i class='bx bxl-twitter'></i>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="subscribe">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--end footer-->
+</body> 
+</html>
